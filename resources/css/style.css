@@ -1,0 +1,74 @@
+
+/* Universal properties */
+
+/* mock contentet to start with to be revided */
+
+
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+header {
+  font: white;
+}
+
+body {
+  margin: ;
+  font-family:'Helvetica';
+  font-size: 1.4em;
+  background-color: black;
+  text-align: center;
+  font: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 1.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  }
+}
+
+nav {
+  text-align: center;
+  flex-grow: 1;
+  background-color: firebrick;
+  color: white;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+main img { /*T his may need to go into responsiuve mode */
+  height: 25 rem;
+}
+
+
+
+
+
+
+
+/* styles to be assigned....
+
+
+navigation
+
+product grid
+
+location
+
+hours
+
+ footer
+*/
+
+--
