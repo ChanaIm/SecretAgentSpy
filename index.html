@@ -3,64 +3,96 @@
 <head>
   <meta charset="utf-8">
   <title> Secret Agent Supply Inc</title>
+  <!--Named folder wrong-->
 
   <!--link to local stylesheet -->
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-  <!--<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">  Is this the  correct type of stylehseet tbc?-->
+  <!--<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">  Is this the  correct type of stylesheet tbc?-->
 </head>
+
 <body>
 
-    <!--header section-->
-  <header>
-    <!--logo and main header -->
-    <h1>SECRET AGENT SUPPLY INC.</h1>
+  <!--Company-header---->
+  <div class="company">
+    <div class="container">
+      <img src="resources/images/logo.png">
+      <span>SECRET AGENT SUPPLY INC.</span>
+    </div>
+  </div>
 
-      <div class="logo">
-        <img src="resources/images/logo.png">
+  <!--Hero banner-->
+    <div class="hero-banner">
+      <div class="container">
+        <div class="headline">
+          <h4>NEW ARRIVAL</h4>
+          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        </div>
+      </div>
+    </div>
+
+  <!--Navigation-->
+
+  <nav>
+    <ul class="container">
+      <li>Eyewear</li>
+      <li>Apparel</li>
+      <li>Gadgets</li>
+      <li>Vehicles</li>
+      <li>Classes</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+
+  <!--Product grid -->
+  <div class="container"> <!---Why do i need this? is it void? -->
+    <div class="products">
+
+      <!--Exploding Pen-->
+      <div class="single-product">
+        <div class="product-image">
+          <img src="resources/images/pen.png">
+        </div>
+        <span class="description">Exploding Pen</span>
       </div>
 
+      <!--Cellular Watch-->
+      <div class="single-product">
+        <div class="product-image">
+          <img src="resources/images/watch.png">
+        </div>
+        <span class="description">Cellular Watch</span>
+      </div>
 
+      <!--Thermal Glasses-->
+      <div class="single-product">
+        <div class="product-image">
+          <img src="resources/images/glasses.png">
+        </div>
+        <span class="description">Thermal Glasses</span>
+      </div>
 
-    <!--main-->
-      <h1>NEW ARRIVAL</h1>
-      <h1>SPORT BIKES AND MOTORCYCLES</h1>
-        <img src="resources/images/moto.jpeg">
+    </div>
+  </div>
 
+  <!--Location and hours-->
+  <div class="container">
 
-        <!--Navigation-->
+      <div class="location">Location
+        <div class="detail">-47.346436, 84.32354</div>
+      </div>
 
-      <nav>
-        <span><a href="#Eyewear">Eyewear</a></span>
-        <span><a href="#Apparel">Apparel</a></span>
-        <span><a href="#Gadgets">Gadgets</a></span>
-        <span><a href="#Vehicles">Vehicles</a></span>
-        <span><a href="#Classes">Classes</a></span>
-        <span><a href="#Contact">Contact</a></span>
-      </nav>
+      <div class="hours"
+        <h4>Hours</h4>
+        <div class="detail">0800 - 1800</div>
+      </div>
 
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!--Footer-->
+  <div class="container">Copyright Secret Agent Supply Inc.</div>
 
 
 
-
-
-  </body>
+</body> <!--This time I won't forget to end with my body tags-->
 </html>
